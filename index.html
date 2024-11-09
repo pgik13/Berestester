@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombay Spice</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="title" content="Bombay Spice">
+    <meta name="description" content="Insert fancy words">
+
+     <!-- 
+        - Google fonts link
+     -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+     <!-- 
+        - Preloaded images 
+      -->
+
+    <link rel="Preloaded" as="image" href="./assets/images/hero-slider-1.jpg">
+    <link rel="Preloaded" as="image" href="./assets/images/hero-slider-2.jpg">
+    <link rel="Preloaded" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+<body>
+
+ <!--  
+      - Preloader     
+    
+    <div class="preload" data-preload>
+      <div class="circle"></div>
+      <p class="text">Bombay Spice</p>
+    </div> -->
+
+
+    <!-- 
+      - Ionicon link
+     -->
+    
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+     <!-- 
+      - Top bar
+     -->
+
+     <div class="topbar">
+        <div class="container">
+
+            <address class="topbar-item">
+                <div class="icon">
+                  <!-- find icons -->
+                </div>
+
+                <span class="span"> Aleea Cauzasi nr. 57, Bucuresti, Romania </span>
+            </address>
+
+            <div class="separator"></div>
+            <div class="topbar-item item-2">
+
+              <span class="span"> Daily 12:00pm - 1:00am </span>
+            </div>
+
+            <div class="separator"></div>
+
+            <a href="+40 722 560 300" class="topbar-item">
+              <span class="span">+40 0722 560 300</span>
+            </a>
+
+            <a href="+40 721 100 000" class="topbar-item">
+              <span class="span">Alternative contact: +40 0721 100 000</span>
+            </a>
+
+            <a href="+40 733 200 000" class="topbar-item">
+              <span class="span">Alternative contact: +40 0733 200 000</span>
+            </a>
+
+            <div class="separator"></div>
+
+            <a href="mailto:rezervari@berestroika.com" class="topbar-item">
+              <span class="span">rezervari@berestroika.com</span>
+            </a>
+        </div>
+     </div>
+
+      <!-- 
+      - Header
+     -->
+
+     <header class="header" data-header>
+        <div class="container">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" alt="Bombay Spice - Home">
+          </a>
+
+          <nav class="navbar" data-navbar>
+            <button class="close-btn" aria-label="Close menu" data-nav-toggler>
+              <!-- <img src="./assets/images/closebtn.jpg" width="50" height="50">  -->
+            </button>
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" width="160" height="50" alt="Bombay Spice - Home">
+            </a>
+
+            <ul class="navbar-list">
+
+              <!-- #home -->
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link hover-underline active">
+                  <div class="separator"></div>
+                  <span class="span">Home</span>
+                </a>
+              </li>
+              
+              <!-- #menu -->
+              <li class="navbar-item">
+                <a href="#menu" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span" style="margin-left: 20px;">Menu</span>
+                </a>
+              </li>
+
+              <!-- #about us -->
+              <li class="navbar-item">
+                <a href="#About us" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span" style="margin-left: 20px;">About us</span>
+                </a>
+              </li>
+
+               <!-- #reservations -->
+               <li class="navbar-item">
+                <a href="#reservations" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span" style="margin-left: 20px;" >Reservations</span>
+                </a>
+              </li>
+
+              <!-- #gallery -->
+              <li class="navbar-item">
+                <a href="#gallery" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span" style="margin-left: 20px;">Gallery</span>
+                </a>
+              </li>
+
+              <!-- #virtual tour -->
+              <li class="navbar-item">
+                <a href="#virtual tour" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span" style="margin-left: 20px;">Virtual tour</span>
+                </a>
+              </li>
+
+              <!--#contact us-->
+              <li class="navbar-item">
+                <a href="#contact us" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span" style="margin-left: 20px;">Contact Us</span>
+                </a>
+              </li>
+
+            </ul>
+
+            <div class="text-center">
+              <p class="headline-1 navbar-title">Visit Us</p>
+
+              <address class="body-4">
+                Aleea Cauzasi nr. 57<br>
+                Bucuresti, Romania
+              </address>
+            </div>
+
+            <p class="body-4 navbar-text">Open 12:00pm - 01:00am</p>
+            <a href="mailto:rezervari@berestroika.com" class="body-4 sidebar-link">rezervari@berestroika.com</a>
+            <div class="separator"></div>
+            <p class="contact-label">Reservation Requests</p>
+            <a href="tel:+40 722 560 300" class="body-1 contact-number hover-underline"> +40 722 560 300</a>
+
+
+          </nav>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="text text-1"> Book a table</span>
+            <span class="text text-2" aria-hidden="true"> Book a table </span>
+          </a>
+
+          <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line 1"></span>
+            <span class="line 2"></span>
+            <span class="line 3"></span>
+        </button>
+        
+
+          <div class="overlay"data-nav-toggler data-overlay></div>
+          
+        </div>
+
+
+     </header>
+
+     <main>
+      <article>
+
+     <!-- 
+      - Hero
+     -->
+
+     <section class="hero text-center" aria-label="home" id="home">
+      
+      <ul class="hero-slider" data-hero-slider>
+
+        <li class="slider-item active" data-hero-slider-item>
+
+          <div class="slider-bg">
+            <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+          </div>
+          
+          <p class="label-2 section-subtitle slider-reveal">Higgy Hagga</p>
+
+          <h1 class="display-1 hero-title slider-reveal">
+            For the love of delicious food
+          </h1>
+
+          <p class="body-2 hero-text slider-reveal">
+            Come with family and enjoy authentic Indian cooking
+          </p>
+
+          <a href="#" class="btn btn-primary slider-reveal">
+            <span class="text-1">View Our Menu</span>
+
+            <span class="text-2" aria-hidden="true">View Our Menu</span>
+          </a>
+
+        </li>
+
+        <li class="slider-item" data-hero-slider-item>
+
+          <div class="slider-bg">
+            <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+          </div>
+          
+          <p class="label-2 section-subtitle slider-reveal">Higga Haggy</p>
+
+          <h1 class="display-1 hero-title slider-reveal">
+            Flavour inspired by the seasons
+          </h1>
+
+          <p class="body-2 hero-text slider-reveal">
+            Come with family and enjoy authentic Indian cooking
+          </p>
+
+          <a href="#" class="btn btn-primary slider-reveal">
+            <span class="text-1">View Our Menu</span>
+
+            <span class="text-2" aria-hidden="true">View Our Menu</span>
+          </a>
+
+        </li>
+
+        <li class="slider-item" data-hero-slider-item>
+
+          <div class="slider-bg">
+            <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+          </div>
+          
+          <p class="label-2 section-subtitle slider-reveal">Krinkrumkrankrum</p>
+
+          <h1 class="display-1 hero-title slider-reveal">
+            Mouthwatering flavour
+          </h1>
+
+          <p class="body-2 hero-text slider-reveal">
+            Come with family and enjoy authentic Indian cooking
+          </p>
+
+          <a href="#" class="btn btn-primary slider-reveal">
+            <span class="text-1">View Our Menu</span>
+
+            <span class="text-2" aria-hidden="true">View Our Menu</span>
+          </a>
+
+        </li>
+      </ul>
+
+      <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+        <img src="./assets/images/prevbtn.jpg" width="50" height="50">
+    </button>
+
+    <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+        <img src="./assets/images/nextbtn.jpg" width="50" height="50">
+    </button>
+
+      <a href="#" class="hero-btn has-after">
+        <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+        <span class="label-2 text-center span">Book A Table</span>
+      </a>
+
+     </section>
+
+     <!--
+      - Services
+     -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+      <div class="container">
+        <h2 class="headline-1 section-title">We Offer The Best</h2>
+
+        <p class="section-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        </p>
+
+        <ul class="grid-list">
+
+          <li>
+
+          <div class="service-card">
+
+            <a href="#" class="has-before hover:shine">
+              <figure class="card-banner img-holder">
+                <img src="./assets/images/hero-slider-1.jpg" width="285" height="336" loading="lazy" alt="Starters & Indian Snacks" class="img-cover">
+              </figure>
+            </a>
+
+          <div class="card-content">
+
+            <h3 class="title-4 card-title">
+              <a href="#">Starters & Snacks</a>
+            </h3>
+
+            <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+          </div>
+        </div>
+          </li>
+
+          <li>
+
+        <div class="service-card">
+
+          <a href="#" class="has-before hover:shine">
+            <figure class="card-banner img-holder">
+              <img src="./assets/images/hero-slider-2.jpg" width="285" height="336" loading="lazy" alt="A Taste of India" class="img-cover">
+            </figure>
+          </a>
+
+          <div class="card-content">
+
+            <h3 class="title-4 card-title">
+              <a href="#">A Taste of India</a>
+            </h3>
+
+            <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+          </div>
+        </div>
+          </li>
+
+          <li>
+
+        <div class="service-card">
+
+          <a href="#" class="has-before hover:shine">
+            <figure class="card-banner img-holder">
+              <img src="./assets/images/hero-slider-3.jpg" width="285" height="336" loading="lazy" alt="Home Brewed / Unfiltered Beer" class="img-cover">
+            </figure>
+          </a>
+
+          <div class="card-content">
+
+            <h3 class="title-4 card-title">
+              <a href="#">Home Brewed / Unfiltered Beer</a>
+            </h3>
+
+            <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+          </div>
+        </div>
+          </li>
+    </ul>
+
+    <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim">
+    <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+
+  </div>
+      </section>
+
+    <!--
+      - Menu
+     -->
+
+     <section class="section menu" aria-label="menu-label" id="menu">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2">Special Tastes</p>
+        <h2 class="headline-1 ection-title text-center">Delicious Menu</h2>
+
+        <ul class="grid-list">
+          <li>
+
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img holder">
+                <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad" class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Greek Salad</a>
+                  </h3>
+
+                  <span class="badge label-1">Seasonal</span>
+
+                  <span class="span title-2">20,000 Nira</span>
+                </div>
+
+                <p class="card-text label-1">Cheese, Ham, Potatoes, Tomatoes, Cheese, Ham, Tomatoes, Potatoes</p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img holder">
+                <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne" class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Lasagne</a>
+                  </h3>
+
+                  <span class="badge label-1">Seasonal</span>
+
+                  <span class="span title-2">40,000,000 Nira</span>
+                </div>
+
+                <p class="card-text label-1">Sugar, Spice, Everything Nice & Chemical X</p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img holder">
+                <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin" class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Butternut Pumpkin</a>
+                  </h3>
+
+                  <span class="badge label-1">Seasonal</span>
+
+                  <span class="span title-2">4,500,00 Rupees</span>
+                </div>
+
+                <p class="card-text label-1">Butter, Nuts and Pumpkin</p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img holder">
+                <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Wagyu" class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">Wagyu</a>
+                  </h3>
+
+                  <span class="badge label-1">Fancy Pants</span>
+
+                  <span class="span title-2">Ask on the day cause it's legitness</span>
+                </div>
+
+                <p class="card-text label-1">Beef from the mean fields of Japan</p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img holder">
+                <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="More Fanciness" class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="#" class="card-title">More Fanciness</a>
+                  </h3>
+
+                  <span class="badge label-1">The Faniciest Fancy Pants</span>
+
+                  <span class="span title-2">Pay what you feel. Minimum £500</span>
+                </div>
+
+                <p class="card-text label-1">Avocados with crab meat, red onion, crab salad and bell peppers. Oh boy.</p>
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+        <a href="#" class="btn btn-primary">
+          <span class="text text-1">View Full Menu</span>
+          <span class="text text-2" aria-hidden = "true">View Full Menu</span>
+        </a>
+
+        <img src="./assets/images/shape-5.png" width = "921" height = "1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+
+        <img src="./assets/images/shape-6.png" width = "343" height = "354" loading="lazy" alt="shape" class="shape shape-3 move-anim">
+
+
+      </div>
+     </section>
+
+       <!--
+      - Special Dishes
+     -->
+
+     <section class="special-dish text-center" aria-labelledby="dish-label">
+      <div class="special-dish-banner">
+        <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish" class="img-cover">
+      </div>
+
+      <div class="special-dish-content bg-black-10">
+        <div class="container">
+          <img src="./assets/images/badge-1.png" width="20" height="41" loading="lazy" alt="badge" class="abs-img">
+
+          <p class="section-subtitle label-2">Tandoor / Indian Clay Oven Dishes</p>
+
+          <h2 class="headline-1 section-title">Lamb Chops</h2>
+
+          <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <div class="wrapper">
+            <del class="del body-3">69 Lei</del>
+            <span class="span body-1">68 Lei</span>
+          </div>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Full Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View Full Menu</span>
+          </a>
+        </div>
+      </div>
+
+      <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+      <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+     </section>
+
+     <!--
+      - Reservations
+     -->
+
+     <section class="reservations">
+      <div class="container">
+
+        <div class="form reservation-form bg-black-10">
+
+          <form action="" class="form-left">
+
+            <h2 class="headline-1 text-center">Online Reservations</h2>
+
+            <p class="form-text text-center">
+              Booking requests <a href="tel:+40 722 560 300" class="link">+40 722 560 300</a> or fill out the form below
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+              <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+            </div> 
+
+            <div class="input-wrapper">
+
+              <div class="icon-wrpper">
+                <select name="person" class="input-field">
+                  <option value="1-person">1 Person</option>
+                  <option value="2-person">2 People</option>
+                  <option value="3-person">3 People</option>
+                  <option value="4-person">4 People</option>
+                  <option value="5-person">5 People</option>
+                  <option value="6-person">6 People</option>
+                  <option value="7-person">7 People</option>
+                  <option value="8-person">8 People</option>
+                  <option value="9-person">9 People</option>
+                </select>
+              </div>
+
+              <div class="icon-wrpper">
+                <input type="date" name="reservation-date" class="input-field">
+              </div>
+
+              <div class="icon-wrpper">
+                <select name="person" class="input-field">
+                  <option value="12:00pm">12:00pm</option>
+                  <option value="13:00pm">13:00pm</option>
+                  <option value="14:00pm">14:00pm</option>
+                  <option value="15:00pm">15:00pm</option>
+                  <option value="16:00pm">16:00pm</option>
+                  <option value="17:00pm">17:00pm</option>
+                  <option value="18:00pm">18:00pm</option>
+                  <option value="19:00pm">19:00pm</option>
+                  <option value="20:00pm">20:00pm</option>
+                  <option value="21:00pm">21:00pm</option>
+                  <option value="22:00pm">22:00pm</option>
+                  <option value="23:00pm">23:00pm</option>
+                  <option value="12:00am">12:00am</option>
+
+                </select>
+              </div>
+
+            </div>
+
+            <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+              
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Book A Table</span>
+              <span class="text-2" aria-hidden="true">Book A Table</span>
+            </button>
+
+              
+          
+          </form>
+
+          <div class="form-right text-center">
+            <h2 class="headline-1 text-center">Contact Us</h2>
+            <p class="contact-label">Booking Request</p>
+            <a href="tel:+40 722 560 300" class="body-1 contact-number hover-underline"> +40 722 560 300</a>
+          </div>
+
+          <div class="separator"></div>
+          <p class="contact-label">Location</p>
+          <address class="body-4">
+            Aleea Cauzasi nr. 57<br>
+            Bucuresti, Romania
+          </address>
+
+          </div>
+      </div>
+     </section>
+
+    <!--
+      - About
+    -->
+
+     <section class="section about text-center" aria-labelledby="about-label" id="about">
+      <div class="container">
+
+        <div class="about-content">
+
+          <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+          <h2 class="headline-1 section-title">Every Flavour Tells A Story</h2>
+          <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="contact-label">Book On The Phone</div>
+          <a href="tel:+40 722 560 300" class="body-1 contact-number hover-underline">+40 722 560 300</a>
+          
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">Read More</span>
+            <span class="text text-2" aria-hidden="true">Read More</span>
+          </a>
+          
+        </div>
+
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1">
+
+          <div class="abs-img abs-img-1 has-before" data data-parallax-item data-parallax-speed="1.75">
+            <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt="" class="w-100">
+          </div>
+          
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+        </figure>
+      </div>
+    </section>
+
+      </article>
+     </main>
+
+    <!--
+      - Footer
+    -->
+
+    <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-bg.jpg');">
+      <div class="container">
+
+        <div class="footer-top grid-list">
+
+          <div class="footer-brand has-before has-after">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="Bombay Spice Home">
+            </a>
+
+            <address class="body-4">
+              Aleea Cauzasi nr. 57, Bucuresti, Romania
+            </address>
+
+          <a href="mailto:rezervari@berestroika.com" class="body-4 sidebar-link">rezervari@berestroika.com</a>
+          <a href="tel:+40 722 560 300" class="body-4 contact-link"> +40 722 560 300</a>
+          <p class="body-4">Open 12:00pm - 01:00am</p>
+
+          <div class="wrapper">
+            <p><br></p>
+            <p><br></p>
+            <p><br></p>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">Subscribe to our newsletter and get <span class="span">10% Off!</span></p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+
+          </div>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Menu</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Reservations</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Contact Us</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Trip Advisor</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Get Here</a>
+            </li>
+
+
+          </ul>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; 2024 Bombay Spice. All Rights Reserved | Built by Pius Gikunoo
+          </p>
+        </div>
+
+
+
+
+      </div>
+    </footer>
+
+     <!--
+      - Back To Top
+    -->
+
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn></a>
+
+
+
+
+
+
+
+         <!-- 
+      - Link to js     
+    -->
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+</body>
+</html>
